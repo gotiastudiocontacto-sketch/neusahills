@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Neusa Hills · Eco hotel boutique frente al embalse del Neusa</title>
+<meta name="description" content="Cabañas de madera frente al embalse del Neusa, a una hora de Bogotá. Jacuzzi, experiencias y restaurante Tributo. Reserva directo.">
+<meta name="theme-color" content="#f2f1ec">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Neusa Hills">
+<meta property="og:title" content="Neusa Hills · Donde la naturaleza se convierte en tu escape">
+<meta property="og:description" content="Cabañas frente al embalse del Neusa, a una hora de Bogotá. Reserva directo con el mejor precio.">
+<!-- Vista previa al compartir por WhatsApp: cambia el dominio por el real al publicar (URL completa con https). -->
+<meta property="og:url" content="https://neusa-hills.vercel.app/">
+<meta property="og:image" content="https://neusa-hills.vercel.app/og-image.jpg">
+<meta property="og:image:secure_url" content="https://neusa-hills.vercel.app/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Página de Neusa Hills con cabañas, experiencias, restaurante y reservas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://neusa-hills.vercel.app/og-image.jpg">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script>
+/* =====================================================================
+   NEGOCIO — Edita SOLO este bloque para cambiar los datos de la página.
+   Si un campo queda vacío ("" o []), esa parte se oculta.
+   ===================================================================== */
+const NEGOCIO = {
+  tipo: "eco hotel boutique y glamping",
+  schemaTipo: "Hotel",
+  nombre: "Neusa Hills",
+  marca: "Neusa Hills",
+  ciudad: "Tausa, Cundinamarca",
+  clienteIdeal: "Parejas y viajeros de Bogotá que buscan naturaleza, descanso y buena comida a una hora de la ciudad",
+  idioma: "es",
+  tono: "premium",
+
+  // ---- ESTILO (verde de su logo y madera de sus cabañas) ----
+  estilo: {
+    modo: "claro",
+    fondo: "#f2f1ec",                       // Blanco cálido, plano
+    principal: "#0f5a46",                   // Verde del logo: botón principal y foco
+    acento: "#b8742f",                      // Madera: solo el icono de la oferta
+    fuente: '-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter, sans-serif',
+    fuenteMarca: '"Fraunces", Georgia, serif',
+    fuenteTitular: '"Fraunces", Georgia, serif'
+  },
+
+  // ---- PANTALLA DE CARGA ----
+  cargador: { activo: true, segundos: 1.8 },
+
+  // ---- CONTACTO ----
+  contacto: {
+    whatsapp: "573105791978",               // Teléfono de su web. Confirma que sea el WhatsApp de reservas
+    whatsappEnlace: "https://wa.me/message/OL4USJCR3JDQI1",
+    telefono: "310 579 1978",
+    correo: "reservas@neusahills.com",
+    mensaje: "Hola, vi su página y quiero reservar en Neusa Hills.",
+    reservaEnLinea: "https://neusa-hills-dot-secure-booking-co1.appspot.com/booking1?adultsRoom1=2",
+    direccion: "Embalse del Neusa, sector Laureles, Tausa, Cundinamarca",
+    localidad: "Tausa",
+    region: "Cundinamarca",
+    referencia: "A una hora de Bogotá. Usa Waze para llegar, no Google Maps.",
+    waze: "https://waze.com/ul/hd2gmm0wfn",
+    zonaHoraria: "America/Bogota",
+    estadoFijo: "Servicio de reservas 24 horas",   // De su web. Vacío = se calcula con el horario
+    horario: {},
+    notasHorario: ["A 1 hora de Bogotá", "Frente al embalse del Neusa", "RNT 255171"],
+    redes: [
+      { nombre: "Instagram", url: "https://www.instagram.com/neusahills/" },
+      { nombre: "neusahills.com", url: "https://www.neusahills.com/" }
+    ]
+  },
+
+  // ---- CONTENIDO ----
+  contenido: {
+    logo: "logo.png",
+    logoAncho: true,                         // Logo horizontal (sin el nombre al lado)
+    lema: "Stay · Breathe · Reconnect",
+    titular: "Donde la naturaleza se convierte en tu escape.",
+    subtitulo: "Cabañas de madera frente al embalse del Neusa, a una hora de Bogotá. Jacuzzi, experiencias para todos los sentidos y nuestro restaurante Tributo.",
+    // Experiencias (de su web)
+    comodidades: [
+      { icono: "desayuno", texto: "Taller de pizza" },
+      { icono: "desayuno", texto: "Clase de sushi" },
+      { icono: "fogata", texto: "Lomo al trapo" },
+      { icono: "hoja", texto: "Taller de cerámica" },
+      { icono: "hoja", texto: "Pintura creativa" },
+      { icono: "montana", texto: "Caminatas ecológicas" },
+      { icono: "hoja", texto: "Cabalgatas" },
+      { icono: "jacuzzi", texto: "Cenas románticas" }
+    ],
+    oferta: {
+      titulo: "El mejor precio reservando directo",
+      detalle: "Reserva en nuestra web o escríbenos. Atendemos las 24 horas.",
+      boton: "Reservar ahora",
+      enlace: "https://neusa-hills-dot-secure-booking-co1.appspot.com/booking1?adultsRoom1=2"
+    },
+    // Cabañas y habitaciones (máximo 6). Sin foto se muestran iniciales
+    servicios: [
+      { nombre: "Cabaña Adamá", detalle: "Ventanal con vista al embalse", foto: "cabana-adama.jpg" },
+      { nombre: "Cabaña Bruma", detalle: "Vista panorámica y terraza", foto: "cabana-bruma.jpg" },
+      { nombre: "Cabaña Oasis", detalle: "Jacuzzi y vista al lago", foto: "cabana-oasis.jpg" },
+      { nombre: "Quiche, Vento y Suka", detalle: "Más cabañas en el bosque" },
+      { nombre: "Nube, Bosco y Cielo", detalle: "Habitaciones del hotel" }
+    ],
+    restaurante: {
+      nombre: "Tributo",
+      detalle: "Cocina de origen, dentro del hotel",
+      logo: "tributo.jpg",
+      reservar: "https://tributo.precompro.com/",
+      instagram: "https://www.instagram.com/tributorestaurante/"
+    },
+    foto: "cabana-bosque.jpg",
+    fotos: ["embalse-neusa.jpg", "jacuzzi.jpg", "experiencia-cocina.jpg"]
+  }
+};
+document.documentElement.style.setProperty("--ld", (NEGOCIO.cargador && NEGOCIO.cargador.activo ? NEGOCIO.cargador.segundos : 0) + "s");
+</script>
+
+<style>
+:root{
+  --bg:#f3f1ea; --primary:#5f6320; --on-primary:#fff; --accent:#c9a227;
+  --text:#1d1d1f; --text2:#6e6e73; --text2-bg:#5c5a52;
+  --surf:linear-gradient(180deg,rgba(255,255,255,.92),rgba(255,255,255,.68));
+  --rim:linear-gradient(165deg,rgba(255,255,255,1) 0%,rgba(255,255,255,.18) 50%,rgba(255,255,255,.5) 100%);
+  --hair:0 0 0 1px rgba(0,0,0,.07); --inner:inset 0 1px 0 #fff;
+  --drop:0 1px 1px rgba(0,0,0,.03),0 4px 12px -4px rgba(0,0,0,.06),0 26px 52px -22px rgba(0,0,0,.16);
+  --fill:rgba(118,118,128,.10); --sep:rgba(60,60,67,.12); --hover:rgba(118,118,128,.08);
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Display",Inter,sans-serif;
+  --font-marca:Georgia,serif; --font-titular:var(--font);
+  --ld:2s;
+}
+html[data-modo="oscuro"]{
+  --text:#f5f5f7; --text2:#a1a1a6; --text2-bg:#a1a1a6;
+  --surf:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035));
+  --rim:linear-gradient(165deg,rgba(255,255,255,.24) 0%,rgba(255,255,255,.06) 50%,rgba(255,255,255,.03) 100%);
+  --hair:0 0 0 1px rgba(0,0,0,.4); --inner:inset 0 1px 0 rgba(255,255,255,.06);
+  --drop:0 1px 1px rgba(0,0,0,.2),0 4px 12px -4px rgba(0,0,0,.3),0 26px 52px -22px rgba(0,0,0,.6);
+  --fill:rgba(118,118,128,.24); --sep:rgba(84,84,88,.45); --hover:rgba(255,255,255,.05);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);-webkit-text-size-adjust:100%}
+body{font-family:var(--font);color:var(--text);background:var(--bg);font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased;overflow-x:hidden;min-height:100vh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit;color:inherit}
+svg{flex:none}
+[hidden]{display:none!important}
+
+/* ---------- Pantalla de carga ---------- */
+#loader{position:fixed;inset:0;z-index:100;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  animation:ldOut .45s ease var(--ld) forwards}
+#loader img{width:220px;height:auto;opacity:0;transform:translateY(6px) scale(.98);animation:ldIn .7s cubic-bezier(.2,.7,.2,1) .1s forwards}
+#loader .ld-name{font-family:var(--font-marca);font-size:26px;font-weight:600;letter-spacing:-.005em;opacity:0;animation:ldIn .7s cubic-bezier(.2,.7,.2,1) .25s forwards}
+#loader .ld-bar{width:120px;height:2px;border-radius:2px;background:rgba(0,0,0,.08);overflow:hidden;margin-top:6px}
+#loader .ld-bar i{display:block;height:100%;width:100%;background:var(--accent);transform-origin:left;transform:scaleX(0);animation:ldBar calc(var(--ld) - .2s) cubic-bezier(.4,0,.2,1) .1s forwards}
+@keyframes ldIn{to{opacity:1;transform:none}}
+@keyframes ldBar{to{transform:scaleX(1)}}
+@keyframes ldOut{to{opacity:0;visibility:hidden}}
+
+/* ---------- Vidrio ---------- */
+.glass{position:relative;background:var(--surf);border-radius:24px;box-shadow:var(--hair),var(--inner),var(--drop)}
+.glass::before,.btn-g::before,.chip::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:var(--rim);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;
+  mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);pointer-events:none}
+.pill{border-radius:999px}
+
+/* ---------- Layout ---------- */
+.wrap{width:100%;max-width:1320px;margin:0 auto;padding:0 32px}
+.topbar{position:sticky;top:14px;z-index:20;margin-top:14px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:7px 8px 7px 8px;
+  -webkit-backdrop-filter:blur(24px) saturate(170%);backdrop-filter:blur(24px) saturate(170%)}
+.brand{display:flex;align-items:center;gap:10px;min-width:0}
+.logo{width:40px;height:40px;border-radius:12px;background:#fff;display:grid;place-items:center;overflow:hidden;flex:none;box-shadow:0 0 0 1px rgba(0,0,0,.06)}
+.logo img{width:82%;height:auto}
+.logo.wide{width:auto;height:44px;background:none;box-shadow:none;border-radius:0;padding:0 6px}
+.logo.wide img{height:38px;width:auto}
+.logo.ini{background:var(--primary);color:var(--on-primary);font-family:var(--font-marca);font-size:20px}
+.brand-name{font-family:var(--font-marca);font-size:24px;font-weight:600;line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-r{display:flex;align-items:center;gap:6px}
+.tel{display:flex;align-items:center;gap:7px;font-size:14px;color:var(--text2);padding:0 12px;min-height:44px;border-radius:12px;transition:color .2s;font-variant-numeric:tabular-nums}
+.tel:hover{color:var(--text)}
+
+main.wrap{flex:1;display:grid;grid-template-columns:55fr 45fr;gap:28px;padding-top:20px;padding-bottom:22px;align-items:start}
+.col{display:flex;flex-direction:column;gap:14px;min-width:0}
+
+.status{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;padding:8px 14px;font-size:14px;color:var(--text2);min-height:36px}
+.dot{width:8px;height:8px;border-radius:50%;background:#8e8e93}
+.dot.on{background:#30b158;box-shadow:0 0 0 3px rgba(48,177,88,.18)}
+.lema{font-family:var(--font-marca);font-style:italic;font-size:20px;font-weight:500;color:var(--primary);line-height:1.2}
+h1{font-family:var(--font-titular);font-size:clamp(38px,3.6vw,54px);font-weight:600;letter-spacing:-.015em;line-height:1.02;margin-top:4px;text-wrap:balance}
+.sub{font-size:17px;color:var(--text2-bg);max-width:580px;line-height:1.45;text-wrap:pretty}
+.ctas{display:flex;gap:10px;flex-wrap:wrap}
+
+/* Chips de comodidades */
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none}
+.chip{position:relative;display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 11px;border-radius:999px;font-size:13px;background:var(--surf);box-shadow:var(--hair),var(--inner),0 1px 1px rgba(0,0,0,.03)}
+.chip svg{color:var(--primary)}
+
+/* ---------- Botones ---------- */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 20px;border-radius:12px;font-weight:500;font-size:16px;border:0;cursor:pointer;
+  transition:transform .2s ease,filter .2s ease;white-space:nowrap}
+.btn-p{background:var(--primary);color:var(--on-primary)}
+.btn-p:hover{filter:brightness(1.1)}
+.btn-g{background:var(--surf);color:var(--text);box-shadow:var(--hair),var(--inner),0 1px 1px rgba(0,0,0,.03),0 4px 12px -4px rgba(0,0,0,.06)}
+.btn-g:hover{transform:translateY(-1px)}
+.btn:active{transform:scale(.98)}
+.btn-sm{height:44px;padding:0 16px;font-size:15px}
+.btn:focus-visible,.row:focus-visible,a:focus-visible,.thumbs button:focus-visible{outline:none;box-shadow:0 0 0 4px var(--ring)}
+
+/* ---------- Tarjetas ---------- */
+.card{padding:16px 20px}
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-bottom:10px;margin-bottom:6px;border-bottom:1px solid var(--sep)}
+.head h2{font-size:15px;font-weight:600;letter-spacing:-.01em}
+.head small{font-size:13px;color:var(--text2);text-align:right}
+
+.duo{display:grid;grid-template-columns:1.35fr 1fr;gap:16px;align-items:stretch}
+.duo.solo{display:block}
+#galeria{padding:10px;position:relative}
+.gal-main{width:100%;height:100%;min-height:200px;aspect-ratio:4/3;object-fit:cover;border-radius:14px;display:block;background:var(--fill);transition:opacity .25s}
+.thumbs{position:absolute;left:20px;bottom:20px;display:flex;gap:8px}
+.thumbs button{width:44px;height:44px;border-radius:10px;overflow:hidden;border:0;padding:0;cursor:pointer;opacity:.85;box-shadow:0 0 0 2px rgba(255,255,255,.9);transition:opacity .2s}
+.thumbs button[aria-current="true"]{opacity:1;box-shadow:0 0 0 2px #fff,0 0 0 4px var(--primary)}
+.thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+
+.offer{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding:18px}
+.duo.solo .offer{flex-direction:row;align-items:center}
+.gift{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;color:var(--accent);background:var(--accent-tint);flex:none}
+.offer h3{font-size:16px;font-weight:600;letter-spacing:-.01em}
+.offer p{font-size:14px;color:var(--text2);margin-top:2px}
+.offer .btn{width:100%;margin-top:auto}
+
+/* Listas iOS (domos) */
+.list{list-style:none}
+.row{display:flex;align-items:center;gap:12px;min-height:44px;padding:6px 10px;margin:0 -10px;border-radius:12px;transition:background .15s;cursor:pointer}
+.list li+li .row{box-shadow:inset 0 1px 0 var(--sep)}
+.row:hover{background:var(--hover)}
+.row .ic.ini{width:60px;height:44px;border-radius:10px;display:grid;place-items:center;flex:none;background:rgba(15,90,70,.08);color:var(--primary);font-family:var(--font-marca);font-size:16px;font-weight:600}
+.row img{width:60px;height:44px;border-radius:10px;object-fit:cover;flex:none;background:var(--fill)}
+.row .n{flex:1;min-width:0;display:flex;flex-direction:column}
+.row .n b{font-size:15px;font-weight:600;letter-spacing:-.01em}
+.row .n small{font-size:13px;color:var(--text2);line-height:1.35}
+.row .p{font-size:14px;color:var(--text2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chev{color:var(--text2);opacity:.6;transition:transform .2s ease}
+.row:hover .chev{transform:translateX(2px)}
+
+/* Restaurante */
+.resto{display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding:12px 14px 12px 12px}
+.resto img{width:64px;height:64px;border-radius:14px;object-fit:cover;display:block}
+.resto b{display:block;font-family:var(--font-marca);font-size:20px;font-weight:600;line-height:1.1}
+.resto small{display:block;font-size:13px;color:var(--text2)}
+.resto .lnk{font-size:13px;color:var(--text2);text-decoration:underline;text-underline-offset:2px}
+.loc-grid.nomap{grid-template-columns:1fr}
+.loc-grid.nomap > div{display:grid;grid-template-columns:1fr auto;column-gap:14px;align-items:center}
+.loc-grid.nomap .addr{grid-column:1;grid-row:1}
+.loc-grid.nomap .ref{grid-column:1;grid-row:2}
+.loc-grid.nomap .loc-act{grid-column:2;grid-row:1 / span 2;margin-top:0}
+@media (max-width:480px){.loc-grid.nomap > div{grid-template-columns:1fr}.loc-grid.nomap .loc-act{grid-column:1;grid-row:auto;margin-top:10px}}
+
+/* Formulario */
+form{display:grid;gap:10px;margin-top:8px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.field{width:100%;height:44px;border:0;border-radius:12px;background:var(--fill);padding:0 14px;font-size:16px;outline:none;transition:box-shadow .2s;-webkit-appearance:none;appearance:none;min-width:0}
+select.field{padding-right:36px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%238e8e93' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center}
+.field::placeholder{color:var(--text2)}
+.field:focus{box-shadow:0 0 0 4px var(--ring)}
+input[type="date"].field{color:var(--text)}
+input[type="date"].field:invalid{color:var(--text2)}
+.f-lbl{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--text2)}
+.fallback{font-size:13px;color:var(--text2);text-align:center}
+.fallback a{text-decoration:underline;text-underline-offset:2px}
+.btns2{display:grid;grid-template-columns:1fr auto;gap:10px}
+
+/* Ubicación */
+.loc-grid{display:grid;grid-template-columns:128px 1fr;gap:14px;margin-top:8px;align-items:center}
+.map{width:128px;height:104px;border:0;border-radius:14px;display:block;background:var(--fill)}
+.addr{font-size:15px}
+.ref{font-size:13px;color:var(--text2);margin-top:2px}
+.loc-act{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.notas{list-style:none;margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}
+.notas li{font-size:13px;padding:4px 10px;border-radius:999px;background:var(--fill);font-variant-numeric:tabular-nums}
+.hours-line{font-size:13px;color:var(--text2);margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.hours-line b{font-weight:500;color:var(--text);font-variant-numeric:tabular-nums}
+.today{font-size:12px;font-weight:500;padding:1px 8px;border-radius:999px;box-shadow:inset 0 0 0 1px currentColor;color:var(--text)}
+
+/* Pie */
+footer.wrap{border-top:1px solid var(--sep);padding-top:16px;padding-bottom:22px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--text2-bg)}
+footer nav{display:flex;gap:16px;flex-wrap:wrap}
+footer a{min-height:24px;display:inline-flex;align-items:center;transition:color .2s}
+footer a:hover{color:var(--text)}
+
+.fab{display:none;position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:30;width:56px;height:56px;border-radius:50%;background:var(--primary);color:var(--on-primary);place-items:center;box-shadow:0 0 0 1px rgba(0,0,0,.07),0 8px 24px -8px rgba(0,0,0,.3)}
+
+/* Aparición (empieza cuando termina la pantalla de carga) */
+.rise{opacity:0;transform:translateY(8px);animation:rise .5s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--ld) + var(--i,0) * 50ms)}
+@keyframes rise{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){
+  :root{--ld:.6s!important}
+  #loader img,#loader .ld-name{animation:none;opacity:1;transform:none}
+  #loader .ld-bar{display:none}
+  .rise{opacity:1;transform:none;animation:none}
+  *{transition:none!important}
+}
+
+/* Celular */
+@media (max-width:859px){
+  .wrap{padding:0 16px}
+  .topbar{top:10px;margin-top:10px}
+  .tel span,#barReserva{display:none}
+  .tel{padding:0 10px}
+  main.wrap{grid-template-columns:1fr;gap:16px;padding-top:18px;padding-bottom:96px}
+  .col,.duo{display:contents}
+  .status{order:1}.h1w{order:2}.sub{order:3}.ctas{order:4}.chips{order:5}#oferta{order:6}#galeria{order:7}#servicios{order:8}#agenda{order:9}#ubicacion{order:10}#resto{order:11}
+  .ctas .btn{flex:1 1 160px}
+  .offer .btn{width:100%}
+  .f-row,.btns2{grid-template-columns:1fr}
+  .gal-main{min-height:0}
+  .fab{display:grid}
+  footer.wrap{padding-bottom:96px}
+}
+@media (max-width:480px){
+  .brand-name{font-size:20px}
+  #barTel{display:none}
+  .loc-grid{grid-template-columns:1fr}
+  .map{width:100%;height:180px}
+  .bar-r .btn{padding:0 14px}
+}
+</style>
+</head>
+<body>
+
+<div id="loader" aria-hidden="true">
+  <img src="logo.png" alt="">
+  <p class="ld-name" id="ldName"></p>
+  <span class="ld-bar"><i></i></span>
+</div>
+
+<div class="wrap">
+  <header class="topbar glass pill rise" style="--i:0">
+    <a class="brand" href="#" aria-label="Inicio">
+      <span class="logo" id="logo"></span>
+      <span class="brand-name" id="brandName"></span>
+    </a>
+    <div class="bar-r">
+      <a class="tel" id="barTel" href="#">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+        <span id="barTelTxt"></span>
+      </a>
+      <a class="btn btn-g btn-sm" id="barReserva" href="#" target="_blank" rel="noopener">Reservar en línea</a>
+      <a class="btn btn-p btn-sm" id="barWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+</div>
+
+<main class="wrap">
+  <section class="col">
+    <div class="status glass pill rise" style="--i:1" id="status" role="status">
+      <span class="dot" id="dot"></span><span id="statusTxt">Consultando horario…</span>
+    </div>
+    <div class="h1w rise" style="--i:2"><p class="lema" id="lema"></p><h1 id="titular"></h1></div>
+    <p class="sub rise" style="--i:3" id="subtitulo"></p>
+    <div class="ctas rise" style="--i:4">
+      <a class="btn btn-p" id="ctaWa" href="#" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3z"/></svg>
+        Escríbenos por WhatsApp
+      </a>
+      <a class="btn btn-g" id="ctaReserva" href="#" target="_blank" rel="noopener">Ver disponibilidad</a>
+    </div>
+    <ul class="chips rise" style="--i:5" id="chips" aria-label="Experiencias"></ul>
+
+    <div class="duo" id="duo">
+      <div class="glass rise" style="--i:6" id="galeria">
+        <img class="gal-main" id="galMain" alt="">
+        <div class="thumbs" id="thumbs"></div>
+      </div>
+      <div class="glass offer rise" style="--i:7" id="oferta">
+        <div class="gift" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8s2-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg>
+        </div>
+        <div><h3 id="ofTit"></h3><p id="ofDet"></p></div>
+        <a class="btn btn-g btn-sm" id="ofBtn" href="#" target="_blank" rel="noopener"></a>
+      </div>
+    </div>
+    <div class="glass resto rise" style="--i:8" id="resto">
+      <img id="rLogo" alt="">
+      <div><b id="rNom"></b><small id="rDet"></small><a class="lnk" id="rIg" href="#" target="_blank" rel="noopener">Ver su Instagram</a></div>
+      <a class="btn btn-g btn-sm" id="rRes" href="#" target="_blank" rel="noopener">Reservar mesa</a>
+    </div>
+  </section>
+
+  <section class="col">
+    <div class="glass card rise" style="--i:3" id="servicios">
+      <div class="head"><h2>Cabañas y habitaciones</h2><small>Toca para reservar por WhatsApp</small></div>
+      <ul class="list" id="servList"></ul>
+    </div>
+
+    <div class="glass card rise" style="--i:4" id="agenda">
+      <div class="head"><h2>Consulta tu fecha</h2><small>Te respondemos por WhatsApp</small></div>
+      <form id="form" novalidate>
+        <div class="f-row">
+          <input class="field" id="fNombre" type="text" placeholder="Tu nombre" autocomplete="name" aria-label="Tu nombre">
+          <select class="field" id="fServ" aria-label="Domo"></select>
+        </div>
+        <div class="f-row">
+          <input class="field" id="fFecha" type="date" aria-label="Fecha de llegada" title="Fecha de llegada">
+          <select class="field" id="fPers" aria-label="Personas"><option value="2">2 personas</option><option value="1">1 persona</option><option value="3">3 personas</option><option value="4">4 personas</option></select>
+        </div>
+        <div class="btns2">
+          <button class="btn btn-p" type="submit">Enviar por WhatsApp</button>
+          <a class="btn btn-g" id="fReserva" href="#" target="_blank" rel="noopener">Reservar en línea</a>
+        </div>
+        <p class="fallback">¿No se abrió WhatsApp? <a id="fFallback" href="#" target="_blank" rel="noopener">Ábrelo aquí</a></p>
+      </form>
+    </div>
+
+    <div class="glass card rise" style="--i:5" id="ubicacion">
+      <div class="head"><h2>Cómo llegar</h2><small>Tausa, Cundinamarca</small></div>
+      <div class="loc-grid">
+        <iframe class="map" id="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación" hidden></iframe>
+        <div>
+          <p class="addr" id="addr"></p>
+          <p class="ref" id="ref"></p>
+          <div class="loc-act"><a class="btn btn-g btn-sm" id="dirBtn" href="#" target="_blank" rel="noopener">Cómo llegar con Waze</a></div>
+        </div>
+      </div>
+      <ul class="notas" id="notas"></ul>
+    </div>
+
+  </section>
+</main>
+
+<footer class="wrap rise" style="--i:8">
+  <span id="copy"></span>
+  <nav id="redes" aria-label="Enlaces"></nav>
+  <a href="https://gotiastudio.it.com" target="_blank" rel="noopener">Página creada por Gotia Studio</a>
+</footer>
+
+<a class="fab" id="fab" href="#" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3z"/></svg>
+</a>
+
+<script>
+(function(){
+  const N = NEGOCIO, C = N.contacto || {}, K = N.contenido || {}, E = N.estilo || {};
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const vacio = v => v == null || (typeof v === "string" && !v.trim()) || (Array.isArray(v) && !v.length);
+  const ocultar = (id, cond) => { if (cond) $(id).hidden = true; };
+
+  /* ---------- Estilo ---------- */
+  const root = document.documentElement;
+  root.dataset.modo = E.modo === "oscuro" ? "oscuro" : "claro";
+  const bg = E.fondo || (E.modo === "oscuro" ? "#0b0b0d" : "#eff0f3");
+  const hex2rgb = h => { h = h.replace("#",""); if (h.length === 3) h = h.split("").map(x=>x+x).join(""); const n = parseInt(h,16); return [n>>16&255, n>>8&255, n&255]; };
+  const lum = h => { const [r,g,b] = hex2rgb(h).map(v => { v/=255; return v <= .03928 ? v/12.92 : Math.pow((v+.055)/1.055, 2.4); }); return .2126*r + .7152*g + .0722*b; };
+  const ratio = (a,b) => { const x = lum(a), y = lum(b); return (Math.max(x,y)+.05)/(Math.min(x,y)+.05); };
+  const P = E.principal || "#0b57d0", A = E.acento || "#f59e0b";
+  const [pr,pg,pb] = hex2rgb(P), [ar,ag,ab] = hex2rgb(A);
+  root.style.setProperty("--bg", bg);
+  root.style.setProperty("--primary", P);
+  root.style.setProperty("--on-primary", ratio(P,"#ffffff") >= ratio(P,"#000000") ? "#ffffff" : "#000000");
+  root.style.setProperty("--ring", `rgba(${pr},${pg},${pb},.4)`);
+  root.style.setProperty("--accent", A);
+  root.style.setProperty("--accent-tint", `rgba(${ar},${ag},${ab},.16)`);
+  if (E.fuente) root.style.setProperty("--font", E.fuente);
+  if (E.fuenteMarca) root.style.setProperty("--font-marca", E.fuenteMarca);
+  if (E.fuenteTitular) root.style.setProperty("--font-titular", E.fuenteTitular);
+
+  /* ---------- Pantalla de carga ---------- */
+  const ld = $("loader");
+  if (!(N.cargador && N.cargador.activo)) ld.remove();
+  else {
+    $("ldName").textContent = N.marca || N.nombre;
+    if (K.logo && K.logoAncho) $("ldName").remove();
+    if (K.logo) ld.querySelector("img").src = K.logo; else ld.querySelector("img").remove();
+    ld.addEventListener("animationend", e => { if (e.animationName === "ldOut") ld.remove(); });
+  }
+
+  /* ---------- SEO ---------- */
+  document.title = N.nombre + (K.lema ? " · " + K.lema.replace(" · ", " en ") : "");
+  const setMeta = (sel, val) => { const m = document.head.querySelector(sel); if (m) m.setAttribute("content", val); };
+  setMeta('meta[name="theme-color"]', bg);
+
+  /* ---------- Analítica ---------- */
+  const track = (ev, data) => {
+    try { if (typeof window.gtag === "function") window.gtag("event", ev, data || {}); } catch(e){}
+    try { if (typeof window.fbq === "function") window.fbq("trackCustom", ev, data || {}); } catch(e){}
+  };
+
+  /* ---------- Enlaces ---------- */
+  const wa = msg => vacio(C.whatsapp) ? C.whatsappEnlace : "https://wa.me/" + String(C.whatsapp).replace(/\D/g,"") + "?text=" + encodeURIComponent(msg || "");
+  const hayWa = !vacio(C.whatsapp) || /^https:\/\/(wa\.me|api\.whatsapp\.com)\//.test(C.whatsappEnlace || "");
+  const bindWa = (el, msg, label) => { el.href = wa(msg); el.addEventListener("click", () => track("whatsapp_click", { ubicacion: label })); };
+  const hayReserva = /^https:\/\//.test(C.reservaEnLinea || "");
+  const bindReserva = (el, label) => { if (!hayReserva) { el.hidden = true; return; } el.href = C.reservaEnLinea; el.addEventListener("click", () => track("reserva_click", { ubicacion: label })); };
+
+  /* ---------- Barra ---------- */
+  $("brandName").textContent = N.marca || N.nombre || "";
+  if (K.logo) $("logo").innerHTML = `<img src="${esc(K.logo)}" alt="">`;
+  if (K.logo && K.logoAncho) { $("logo").classList.add("wide"); $("logo").querySelector("img").alt = N.nombre; $("brandName").hidden = true; }
+  else { $("logo").classList.add("ini"); $("logo").textContent = (N.marca || N.nombre || "?").trim().charAt(0).toUpperCase(); }
+  const digTel = String(C.telefono || "").replace(/\D/g,"");
+  const telHref = "tel:" + (digTel.length === 10 ? "+57" : "") + digTel;
+  if (C.telefono) { $("barTelTxt").textContent = C.telefono; $("barTel").href = telHref; }
+  ocultar("barTel", vacio(C.telefono));
+  if (hayWa) { bindWa($("barWa"), C.mensaje, "barra"); bindWa($("ctaWa"), C.mensaje, "principal"); bindWa($("fab"), C.mensaje, "flotante"); }
+  ocultar("barWa", !hayWa); ocultar("ctaWa", !hayWa); ocultar("fab", !hayWa);
+  bindReserva($("barReserva"), "barra"); bindReserva($("ctaReserva"), "principal"); bindReserva($("fReserva"), "formulario");
+
+  /* ---------- Hero ---------- */
+  $("lema").textContent = K.lema || ""; ocultar("lema", vacio(K.lema));
+  $("titular").textContent = K.titular || "";
+  $("subtitulo").textContent = K.subtitulo || ""; ocultar("subtitulo", vacio(K.subtitulo));
+
+  /* ---------- Comodidades ---------- */
+  const IC = {
+    jacuzzi: '<path d="M3 12h18v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-3z"/><path d="M6 12V6a2 2 0 0 1 3.5-1.3M8 20l-1 2M16 20l1 2"/>',
+    malla: '<path d="M3 8h18M3 8l3 9h12l3-9"/><path d="M8 8l2 9M16 8l-2 9M5 12.5h14"/>',
+    fogata: '<path d="M12 3c2 3 5 5 5 9a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5.3 1.5 1 2.5 2 3 0-3 0-5.5 1-7.5z"/><path d="M5 21l14-3M19 21L5 18"/>',
+    desayuno: '<path d="M4 9h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6V9z"/><path d="M17 11h1.5a2.5 2.5 0 0 1 0 5H17M8 3v3M12 3v3"/>',
+    mascota: '<circle cx="5.5" cy="10" r="1.8"/><circle cx="9.5" cy="6" r="1.8"/><circle cx="14.5" cy="6" r="1.8"/><circle cx="18.5" cy="10" r="1.8"/><path d="M8 17.5c0-2.5 1.8-5 4-5s4 2.5 4 5c0 1.6-1.3 2.5-2.7 2.5-.6 0-.9-.3-1.3-.3s-.7.3-1.3.3C9.3 20 8 19.1 8 17.5z"/>',
+    wifi: '<path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r=".8" fill="currentColor"/>',
+    auto: '<path d="M5 17h14v-4l-2-5H7l-2 5v4z"/><circle cx="8" cy="17" r="1.6"/><circle cx="16" cy="17" r="1.6"/>',
+    montana: '<path d="M3 20l6-11 4 6 3-4 5 9H3z"/>',
+    hoja: '<path d="M5 19c0-8 5-14 15-15-1 10-7 15-15 15z"/><path d="M5 19l8-8"/>'
+  };
+  const com = (K.comodidades || []).filter(c => c && !vacio(c.texto));
+  $("chips").innerHTML = com.map(c => `<li class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${IC[c.icono] || IC.montana}</svg>${esc(c.texto)}</li>`).join("");
+  ocultar("chips", !com.length);
+
+  /* ---------- Galería ---------- */
+  const fotos = [K.foto, ...(K.fotos || [])].filter(f => !vacio(f));
+  if (fotos.length) {
+    $("galMain").src = fotos[0]; $("galMain").alt = N.nombre;
+    if (fotos.length > 1) {
+      $("thumbs").innerHTML = fotos.map((f,i) => `<button type="button" aria-label="Ver foto ${i+1}" aria-current="${i===0}"><img src="${esc(f)}" alt="" loading="lazy"></button>`).join("");
+      $("thumbs").querySelectorAll("button").forEach((b,i) => b.addEventListener("click", () => {
+        $("galMain").src = fotos[i];
+        $("thumbs").querySelectorAll("button").forEach(x => x.setAttribute("aria-current", x === b));
+      }));
+    }
+  } else { $("galeria").hidden = true; $("duo").classList.add("solo"); }
+
+  /* ---------- Oferta ---------- */
+  const O = K.oferta || {};
+  if (!vacio(O.titulo)) {
+    $("ofTit").textContent = O.titulo; $("ofDet").textContent = O.detalle || "";
+    $("ofBtn").textContent = O.boton || "La quiero";
+    if (/^https:\/\//.test(O.enlace || "")) { $("ofBtn").href = O.enlace; $("ofBtn").addEventListener("click", () => track("reserva_click", { ubicacion: "oferta" })); }
+    else if (hayWa) bindWa($("ofBtn"), "Hola, quiero la oferta: " + O.titulo, "oferta"); else $("ofBtn").hidden = true;
+  } else { $("oferta").hidden = true; $("duo").classList.add("solo"); }
+
+  /* ---------- Domos ---------- */
+  const servs = (K.servicios || []).filter(s => s && !vacio(s.nombre)).slice(0,6);
+  const chev = `<svg class="chev" width="8" height="13" viewBox="0 0 8 13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 1.5l5 5-5 5"/></svg>`;
+  if (servs.length) {
+    $("servList").innerHTML = servs.map(s => `<li><a class="row" ${hayWa ? `href="${esc(wa("Hola, quiero información para reservar: " + s.nombre + "."))}" target="_blank" rel="noopener"` : ""} data-s="${esc(s.nombre)}">${s.foto ? `<img src="${esc(s.foto)}" alt="" loading="lazy">` : `<span class="ic ini" aria-hidden="true">${esc(s.nombre.replace(/^Cabaña /,"").slice(0,2))}</span>`}<span class="n"><b>${esc(s.nombre)}</b>${s.detalle ? `<small>${esc(s.detalle)}</small>` : ""}</span>${s.precio ? `<span class="p">${esc(s.precio)}</span>` : ""}${hayWa ? chev : ""}</a></li>`).join("");
+    $("servList").querySelectorAll(".row").forEach(r => r.addEventListener("click", () => track("whatsapp_click", { ubicacion: "domo", servicio: r.dataset.s })));
+  } else $("servicios").hidden = true;
+
+  /* ---------- Formulario ---------- */
+  if (hayWa) {
+    $("fServ").innerHTML = [...servs.map(s => s.nombre), "Aún no sé, recomiéndenme"].map(n => `<option>${esc(n)}</option>`).join("");
+    const hoy = new Date(); const iso = d => new Date(d.getTime() - d.getTimezoneOffset()*60000).toISOString().slice(0,10);
+    $("fFecha").min = iso(hoy); $("fFecha").required = true;
+    const fFmt = v => { if (!v) return ""; const [y,m,d] = v.split("-"); return d + "/" + m + "/" + y; };
+    const armar = () => {
+      const nom = $("fNombre").value.trim(), f = $("fFecha").value;
+      return (nom ? "Hola, soy " + nom + ". " : "Hola. ") + "Me interesa: " + $("fServ").value + "."
+        + (f ? " Llegada: " + fFmt(f) + "." : "") + " Personas: " + $("fPers").value + ".";
+    };
+    const upd = () => { $("fFallback").href = wa(armar()); };
+    ["fNombre","fServ","fFecha","fPers"].forEach(id => $(id).addEventListener("input", upd)); upd();
+    $("form").addEventListener("submit", e => {
+      e.preventDefault();
+      if (!$("fNombre").value.trim()) { $("fNombre").focus(); return; }
+      const url = wa(armar()); $("fFallback").href = url;
+      track("form_whatsapp", { servicio: $("fServ").value });
+      window.open(url, "_blank", "noopener");
+    });
+    $("fFallback").addEventListener("click", () => track("form_whatsapp", { servicio: $("fServ").value, respaldo: true }));
+  } else $("agenda").hidden = true;
+
+  /* ---------- Ubicación ---------- */
+  const hayGeo = typeof C.lat === "number" && typeof C.lng === "number";
+  if (hayGeo) { $("map").src = `https://www.google.com/maps?q=${C.lat},${C.lng}&z=13&output=embed`; $("map").hidden = false; }
+  $("addr").textContent = C.direccion || ""; ocultar("addr", vacio(C.direccion));
+  $("ref").textContent = C.referencia || ""; ocultar("ref", vacio(C.referencia));
+  if (!hayGeo) document.querySelector(".loc-grid").classList.add("nomap");
+  const destino = hayGeo ? C.lat + "," + C.lng : (N.nombre + ", " + (C.direccion || ""));
+  $("dirBtn").href = /^https:\/\//.test(C.waze || "") ? C.waze : "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(destino);
+  $("dirBtn").addEventListener("click", () => track("maps_click", {}));
+
+  /* ---------- Horario y estado ---------- */
+  const DIAS = ["lunes","martes","miercoles","jueves","viernes","sabado","domingo"];
+  const NOMBRES = ["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"];
+  const H = C.horario || {};
+  const rango = k => { const m = (H[k] || "").trim().match(/^(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})$/); return m ? [ +m[1]*60 + +m[2], +m[3]*60 + +m[4] ] : null; };
+  const fmt = min => { const h = Math.floor(min/60) % 24, m = min % 60; return (h % 12 || 12) + ":" + String(m).padStart(2,"0") + (h < 12 ? " a. m." : " p. m."); };
+  const tz = C.zonaHoraria || "America/Bogota";
+  const ahora = () => {
+    const p = {}; new Intl.DateTimeFormat("en-US", { timeZone: tz, weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(new Date()).forEach(x => p[x.type] = x.value);
+    return { d: ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].indexOf(p.weekday), min: (+p.hour % 24) * 60 + +p.minute };
+  };
+  const hayHorario = DIAS.some(k => rango(k));
+  const pintarEstado = () => {
+    if (C.estadoFijo) { $("dot").className = "dot on"; $("statusTxt").textContent = C.estadoFijo; return; }
+    if (!hayHorario) { $("status").hidden = true; return; }
+    const { d, min } = ahora(), r = rango(DIAS[d]);
+    if (r && min >= r[0] && min < r[1]) { $("dot").className = "dot on"; $("statusTxt").textContent = (C.estadoAbierto || "Abierto ahora, cierra a las") + " " + fmt(r[1]); return; }
+    $("dot").className = "dot";
+    for (let i = 0; i < 8; i++) {
+      const k = (d + i) % 7, rr = rango(DIAS[k]);
+      if (!rr || (i === 0 && min >= rr[0])) continue;
+      $("statusTxt").textContent = (C.estadoCerrado || "Cerrado, abre") + " " + (i === 0 ? "hoy" : i === 1 ? "mañana" : "el " + NOMBRES[k].toLowerCase()) + " a las " + fmt(rr[0]); return;
+    }
+    $("statusTxt").textContent = "Cerrado";
+  };
+  pintarEstado(); setInterval(pintarEstado, 60000);
+
+  if (false) {
+    const hoy = ahora().d, grupos = [];
+    DIAS.forEach((k,i) => { const v = (H[k] || "").trim(); const g = grupos[grupos.length-1]; if (g && g.v === v) g.fin = i; else grupos.push({ v, ini: i, fin: i }); });
+    $("hoursLine").innerHTML = esc(C.etiquetaHorario || "Horario") + ": " + grupos.map(g => {
+      const n = g.fin - g.ini, lbl = n === 0 ? NOMBRES[g.ini] : NOMBRES[g.ini] + (n === 1 ? " y " : " a ") + NOMBRES[g.fin].toLowerCase();
+      const r = rango(DIAS[g.ini]);
+      return `<span>${esc(lbl)} <b>${r ? fmt(r[0]) + " – " + fmt(r[1]) : "Cerrado"}</b>${hoy >= g.ini && hoy <= g.fin && grupos.length > 1 ? ' <span class="today">Hoy</span>' : ""}</span>`;
+    }).join(" · ");
+  }
+  const notas = (C.notasHorario || []).filter(n => !vacio(n));
+  $("notas").innerHTML = notas.map(n => `<li>${esc(n)}</li>`).join(""); ocultar("notas", !notas.length);
+
+  /* ---------- Restaurante ---------- */
+  const R = K.restaurante || {};
+  if (!vacio(R.nombre)) {
+    $("rNom").textContent = R.nombre; $("rDet").textContent = R.detalle || "";
+    if (R.logo) $("rLogo").src = R.logo, $("rLogo").alt = R.nombre; else $("rLogo").hidden = true;
+    if (/^https:\/\//.test(R.reservar || "")) { $("rRes").href = R.reservar; $("rRes").addEventListener("click", () => track("restaurante_click", {})); } else $("rRes").hidden = true;
+    if (/^https:\/\//.test(R.instagram || "")) $("rIg").href = R.instagram; else $("rIg").hidden = true;
+  } else $("resto").hidden = true;
+
+  /* ---------- Pie ---------- */
+  $("copy").textContent = "© " + new Date().getFullYear() + " " + (N.nombre || "");
+  const redes = (C.redes || []).filter(r => r && r.url && /^https?:\/\//.test(r.url));
+  const enl = redes.map(r => `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.nombre)}</a>`);
+  if (C.correo) enl.push(`<a href="mailto:${esc(C.correo)}">${esc(C.correo)}</a>`);
+  $("redes").innerHTML = enl.join(""); ocultar("redes", !enl.length);
+
+  /* ---------- JSON-LD ---------- */
+  const SD = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+  const abs = f => f ? new URL(f, location.href).href : undefined;
+  const ldj = {
+    "@context": "https://schema.org", "@type": N.schemaTipo || "LocalBusiness",
+    name: N.nombre, description: K.subtitulo, url: location.href.split("#")[0],
+    logo: abs(K.logo), image: fotos.map(abs),
+    telephone: C.whatsapp ? "+" + String(C.whatsapp).replace(/\D/g,"") : (C.telefono || undefined),
+    email: C.correo || undefined,
+    address: C.direccion ? { "@type": "PostalAddress", streetAddress: C.direccion, addressLocality: C.localidad, addressRegion: C.region, addressCountry: "CO" } : undefined,
+    geo: hayGeo ? { "@type": "GeoCoordinates", latitude: C.lat, longitude: C.lng } : undefined,
+    containsPlace: R.nombre ? { "@type": "Restaurant", name: R.nombre, url: R.reservar } : undefined,
+    amenityFeature: com.map(c => ({ "@type": "LocationFeatureSpecification", name: c.texto, value: true })),
+    sameAs: redes.map(r => r.url),
+    openingHoursSpecification: DIAS.map((k,i) => { const r = rango(k); return r && { "@type": "OpeningHoursSpecification", dayOfWeek: SD[i], opens: H[k].split("-")[0].trim(), closes: H[k].split("-")[1].trim() }; }).filter(Boolean),
+    makesOffer: servs.map(s => ({ "@type": "Offer", name: s.nombre, description: s.detalle }))
+  };
+  const sc = document.createElement("script"); sc.type = "application/ld+json"; sc.textContent = JSON.stringify(ldj); document.head.appendChild(sc);
+})();
+</script>
+</body>
+</html>
